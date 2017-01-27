@@ -21,17 +21,6 @@ setup(
         'Intended Audience :: Developers',
         'Programming Language :: Python :: 2.7',
     ],
-    install_requires=[
-        'os',
-        'sys',
-        'shapely',
-        'fiona',
-        'rasterio',
-        'fnmatch',
-        'itertools',
-        'geopandas',
-        'pandas'
-    ],
      package_data={
         'atlas': [],
     },
