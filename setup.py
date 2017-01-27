@@ -20,6 +20,13 @@ setup(
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
         'Programming Language :: Python :: 2.7',
+    ],    
+    install_requires=[
+        'shapely',
+        'fiona',
+        'rasterio',
+        'geopandas',
+        'pandas'
     ],
      package_data={
         'atlas': [],
