@@ -31,5 +31,8 @@ setup(
         'itertools',
         'geopandas',
         'pandas'
-    ]
+    ],
+     package_data={
+        'atlas': [],
+    },
 )
